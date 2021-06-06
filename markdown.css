@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.mps-wrod {
+  word-wrap: break-word;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 17px;
+  color: #505050;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.7;
+  min-height: 200px;
+  font-weight: 400;
+  border: none;
+  padding: 0 16px;
+  /* 标题 h1~h6*/
+  /*  img*/
+  /*  img-wrapper*/
+  /*对 markdown 样式的补充*/
+}
+.mps-wrod h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+}
+.mps-wrod h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+}
+.mps-wrod h3 {
+  font-size: 1.25em;
+}
+.mps-wrod h4 {
+  font-size: 1em;
+}
+.mps-wrod h5 {
+  font-size: 0.875em;
+}
+.mps-wrod h6 {
+  color: #6a737d;
+  font-size: 0.85em;
+}
+.mps-wrod h1, .mps-wrod h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.mps-wrod h1,
+.mps-wrod h2,
+.mps-wrod h3,
+.mps-wrod h4,
+.mps-wrod h5,
+.mps-wrod h6 {
+  margin: 16px 0;
+  font-weight: 600;
+  line-height: 1.25;
+  border: none;
+}
+.mps-wrod img {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.mps-wrod .v-note-img-wrapper {
+  overflow: auto;
+  text-align: center;
+  padding: 30px;
+  display: inline-block;
+}
+.mps-wrod pre {
+  display: block;
+  padding: 10px;
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #abb2bf;
+  background: #23241f;
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow: auto;
+  border-radius: 5px;
+}
+.mps-wrod table {
+  text-align: center;
+  border: 1px solid #eee;
+  margin-bottom: 1.5em;
+}
+.mps-wrod th,
+.mps-wrod td {
+  padding: 0.5em;
+}
+.mps-wrod tr:nth-child(2n) {
+  background: #f7f7f7;
+}
+.mps-wrod ul, .mps-wrod ol {
+  color: #333333;
+  margin: 1.5em 0 0 25px;
+}
+.mps-wrod blockquote, .mps-wrod mark {
+  margin: 0 0 1em;
+  background-color: #dce6f0;
+  padding: 1em 0 0.5em 0.5em;
+  border-left: 6px solid #b5cce2;
+}
+.mps-wrod strong {
+  font-weight: bold;
+}
+.mps-wrod p {
+  margin-bottom: 12px;
+}
+.mps-wrod p > code:not([class]) {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}

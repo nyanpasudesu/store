@@ -1,0 +1,103 @@
+.verBox .slider-btn {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 0;
+    top: -5px;
+    z-index: 12;
+    cursor: pointer;
+    background-image: url("https://cdn.jsdelivr.net/gh/nyanpasudesu/store/20210306023114.png");
+    background-size: 393.93939%;
+    background-position: 0 11.79625%;
+    transition: inherit;
+  }
+  .verBox .ver-tips {
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+    background: rgba(255, 255, 255, 0.9);
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    padding: 0 8px;
+    transition: all 0.4s;
+  }
+  .verBox .slider-tips {
+    bottom: 0;
+  }
+  .verBox .ver-tips i {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+    background-image: url("https://cdn.jsdelivr.net/gh/nyanpasudesu/store/20210306023123.png");
+    background-position: -4px -1229px;
+  }
+  .verBox .ver-tips span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 22px;
+    color: #455;
+  }
+  .verBox .active-tips {
+    display: block;
+  }
+  .verBox .hidden {
+    display: none;
+  }
+  .verBox .panel-wrap {
+    position: relative;
+    border-top: 1px solid #EEEEEE;
+    width: 100%;
+    margin: 0;
+    padding: 0px 0 40px 0;
+  }
+  .verBox .re-btn {
+    position: absolute;
+    left: 45px;
+    bottom: 0;
+    height: 28px;
+    line-height: 28px;
+  }
+  .verBox .re-btn a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nyanpasudesu/store/20210306023114.png");
+    overflow: hidden;
+    background-size: 1300%;
+    background-position: 0 81.38425%;
+    cursor: pointer;
+  }
+  .verBox .re-btn a:hover {
+    background-size: 1300%;
+    background-position: 0 87.5895%;
+    overflow: visible;
+  }
+  .verBox .cl-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 16px;
+  }
+  .verBox .cl-btn a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url("https://cdn.jsdelivr.net/gh/nyanpasudesu/store/20210306023114.png");
+    margin-left: 0;
+    overflow: hidden;
+    background-size: 1300%;
+    background-position: 0 44.86874%;
+    cursor: pointer;
+  }
+  .verBox .cl-btn a:hover {
+    background-size: 1300%;
+    background-position: 0 51.07399%;
+    overflow: visible;
+  }

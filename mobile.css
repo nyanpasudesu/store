@@ -1,0 +1,445 @@
+@media screen and (max-width: 768px) {
+    .mobile-nyanpasu-header {
+      width: 100%;
+      box-sizing: content-box;
+      z-index: 99;
+      position: fixed;
+      transition: all 0.1s;
+    }
+    .mobile-nyanpasu-header .miapas-avatar {
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 5px;
+    }
+    .mobile-nyanpasu-header .miapas-avatar:hover .miapas-avatar-content {
+      width: 46px;
+      height: 46px;
+    }
+    .mobile-nyanpasu-header .miapas-avatar .miapas-avatar-content {
+      width: 34px;
+      height: 34px;
+    }
+    .mobile-nyanpasu-header .online-indicator div.not-login .avatar-img, .mobile-nyanpasu-header .miapas-avatar .avatar-bg {
+      width: 8vw;
+      height: 8vw;
+    }
+    .mobile-nyanpasu-header .logotext {
+      font-size: 3.46667vw;
+      padding: 0;
+    }
+    .mobile-nyanpasu-header .logotext .logo {
+      line-height: 15px;
+    }
+    .mobile-nyanpasu-header .logotext .logo-font {
+      font-size: 2.46667vw;
+      position: inherit;
+      opacity: 1;
+      animation: none;
+      float: left;
+      display: block;
+      letter-spacing: 2px;
+      padding-left: 0;
+      overflow: hidden;
+      font-weight: 700;
+      z-index: 0;
+      transition: all 0.5s;
+      line-height: 14px;
+    }
+    .mobile-nyanpasu-header .is_pc, .mobile-nyanpasu-header .rainbow-canvas {
+      display: none;
+    }
+    .mobile-nyanpasu-header .is_mobile {
+      height: auto;
+      display: block;
+    }
+    .mobile-nyanpasu-header .is_mobile img {
+      width: 6vw;
+      height: 6vw;
+      filter: contrast(130%);
+      vertical-align: sub;
+      display: inline-block;
+    }
+    .mobile-nyanpasu-header .ny-search input {
+      border-radius: 3.2vw;
+      background: #f4f4f4;
+      white-space: nowrap;
+      font-size: 2.66667vw;
+      width: 100%;
+    }
+    .mobile-nyanpasu-header .online-indicator .miapas-right .miapas-menu .nav-ul .item-list .menu-item {
+      margin-right: 0;
+    }
+    .mobile-nyanpasu-header .online-indicator .miapas-right .miapas-menu .nav-ul .item-list .not_mr5 {
+      margin-right: 5px;
+    }
+    .mobile-nyanpasu-header .online-indicator .miapas-right .miapas-menu .nav-ul .item-list .menu-item:last-child {
+      margin-right: 5px;
+    }
+    .mobile-nyanpasu-header .online-indicator .miapas-right .search-icon {
+      margin-left: 0;
+    }
+    .mobile-nyanpasu-header .online-indicator .miapas-right .search-icon button {
+      font-size: 3.46667vw;
+      line-height: inherit;
+    }
+    .mobile-nyanpasu-header .miapas-header {
+      padding: 0;
+      line-height: inherit;
+    }
+    .mobile-nyanpasu-header .online-indicator .header-logo {
+      min-width: auto;
+    }
+    .mobile-nyanpasu-header .online-indicator .ny-search {
+      min-width: auto;
+    }
+  
+    .ny-main-wrap {
+      padding-top: 0;
+    }
+  
+    .mobile-nyanpasu-main .mobile-ny-section-wrap {
+      width: 100%;
+      margin-top: 0;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-article .ny-card .ant-card-grid {
+      width: 50%;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-article .ny-card .ant-card-grid .ny-list .ny-module .ny-meta {
+      padding: 1.2vw 2.4vw;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-article .ny-card .ant-card-grid .ny-list .ny-module .ny-meta > div .ant-tag {
+      font-size: 3.46667vw;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-article .ny-card .ant-card-grid .ny-list .ny-module .ny-meta > h5 {
+      display: none;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details {
+      margin-top: 15px;
+      padding-top: 15px;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ant-card-head .ant-card-head-title .ny-user-info {
+      border-left: none;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details p.desc {
+      text-indent: 2em;
+      margin: 3vw 0;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .user-follow {
+      width: auto;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ant-card-head .ant-card-head-title .ny-title h1 {
+      font-size: 6vw;
+      line-height: 7vw;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ant-card-head, .mobile-nyanpasu-main .mobile-ny-section-wrap .ant-card-body {
+      padding: 2.4vw;
+      padding-top: 0;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ant-card-head .ant-card-head-title .ny-title .ny-meta {
+      padding: 1.2vw 2.4vw;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .mps-wrod h2 {
+      font-size: 6vw;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ny-download .ny-download-list .ny-download-item {
+      flex-wrap: wrap;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ny-download .ny-download-list .ny-download-item .ny-download-rights {
+      width: 100%;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ny-tags-meat {
+      margin: 0;
+      padding: 0;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-pre-cont .ny-pre, .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-pre-cont .ny-next-cont {
+      width: 100%;
+    }
+    .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ny-pre-cont .ny-pre-next-btn a i, .mobile-nyanpasu-main .mobile-ny-section-wrap .ny-details .ny-pre-cont .ny-pre-next-info a i {
+      opacity: 1;
+    }
+    .mobile-nyanpasu-main .site-search .search-content, .mobile-nyanpasu-main .site-search .search-head {
+      width: auto;
+    }
+    .mobile-nyanpasu-main .site-search {
+      width: 100%;
+    }
+    .mobile-nyanpasu-main .site-search .search-content .ant-card-grid {
+      width: 50%;
+    }
+    .mobile-nyanpasu-main .site-search .search-content .ant-card-grid:hover .ny-list .ny-module .ny-meta div:nth-of-type(3) {
+      display: none;
+    }
+    .mobile-nyanpasu-main .site-search .search-head .ny-search .ant-input-search {
+      width: auto;
+    }
+    .mobile-nyanpasu-main .site-search .search-head .ny-search .ant-input-search input {
+      border-radius: 3.2vw;
+      background: #f4f4f4;
+      white-space: nowrap;
+      font-size: 2.66667vw;
+    }
+    .mobile-nyanpasu-main .site-search .search-head > div:nth-child(2) {
+      width: auto;
+    }
+  
+    .mobile-aside-card {
+      display: none;
+    }
+  
+    .mobile-footer-menu {
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      position: fixed;
+      bottom: 0;
+      z-index: 99;
+      padding: 2vw 2.4vw;
+    }
+    .mobile-footer-menu ul {
+      display: flex;
+      flex-flow: nowrap;
+      justify-content: space-between;
+      text-align: center;
+    }
+    .mobile-footer-menu ul li {
+      flex: 1;
+    }
+    .mobile-footer-menu ul li a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      color: inherit;
+      text-decoration: none;
+      vertical-align: top;
+    }
+    .mobile-footer-menu ul li:nth-child(3) i {
+      padding: 0.5vw;
+    }
+  
+    .mobile-dropdown, .ny-icon-button,
+  .mobile-ny-color, .back-top,
+  .ny-nav, .ny-main .ny-banner,
+  .ny-main .ny-aside {
+      display: none;
+    }
+  
+    .mobile-ny-setion-col {
+      width: 100%;
+    }
+  
+    .error-site .error-container {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .user-avatar {
+      border-radius: 50%;
+      margin-top: -60px;
+    }
+  
+    .user-panel-info {
+      width: 100%;
+      padding-left: 0;
+      margin-top: 5px;
+    }
+  
+    .site-users .author-header .user-panel .user-panel-info .user-info {
+      width: 50%;
+    }
+  
+    .site-users .author-header .user-panel .user-panel-info .user-panel-editor-button .user-follow {
+      flex-direction: column;
+      align-content: space-between;
+      align-items: flex-end;
+    }
+  
+    .site-users .author-header .user-panel .user-panel-info .user-panel-editor-button .user-follow > button:nth-child(1) {
+      margin-bottom: 10px;
+    }
+  
+    .mobile-site-about {
+      width: 95%;
+    }
+  
+    .ny-moblie-banner {
+      display: block;
+    }
+  
+    .ny-moblie-banner .ny-banner-list .banner-info-box {
+      padding: 6px;
+    }
+  
+    .ny-moblie-banner .ny-banner-list .banner-info-box .banner-info-title {
+      margin: 0;
+    }
+  
+    .ny-banner {
+      display: none;
+    }
+  
+    #__nuxt {
+      overflow-x: hidden;
+    }
+  
+    .modal4 .ant-modal {
+      width: auto;
+    }
+  
+    .modal4 .add-icon {
+      max-width: 50vw;
+    }
+  
+    .site-verify-login .views-right {
+      display: none;
+    }
+  
+    .site-verify-login .content-views {
+      width: 100%;
+    }
+  
+    .site-verify-login .views-left {
+      width: 100%;
+      border-right: 0px solid #fff;
+    }
+  
+    .site-verify-login .views-left .login,
+  .site-verify-login .views-left .register {
+      padding: 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    .site-verify-findpassword > .container {
+      padding: 0 20px;
+    }
+  
+    .site-verify-findpassword .container,
+  .site-verify-findpassword .contanier,
+  .site-verify-findpassword .findpassword-form {
+      max-width: 100%;
+    }
+  
+    .notifications .main {
+      margin-right: 0px;
+    }
+  
+    .hearUser-message .hearUser-wrapper {
+      width: 100vw;
+      margin: 0 auto;
+    }
+    .hearUser-message .hearUser-wrapper .hearUser-sideBar {
+      width: 100%;
+    }
+    .hearUser-message .hearUser-wrapper .hearUser-section {
+      display: none;
+    }
+  
+    .pc-upload {
+      display: none;
+    }
+  
+    .mobile-upload {
+      display: block;
+    }
+  
+    .manuscript-home .ant-card-body > div {
+      flex: 0 0 50%;
+    }
+  
+    .manuscript .manuscriptSide-wrapper .manuscript-slider {
+      position: absolute;
+    }
+  
+    .manuscript .manuscriptSide-wrapper .manuscript-slider .ant-drawer-content-wrapper {
+      box-shadow: 5px 0 8px rgba(0, 0, 0, 0.15);
+    }
+  
+    .lc-tab .ant-tabs-nav-container {
+      width: 100%;
+    }
+  
+    .manuscript-upload .ny-col-content {
+      width: 100%;
+    }
+  
+    .manuscript-article .ny-col-content .article-list_wrap .article-card .meta-wrp {
+      width: 100%;
+    }
+  
+    .manuscript-article .ny-col-content .article-list_wrap .article-card .meta-operation {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .miapas-avatar-popover .centered-overlay .user-container .avatar {
+      width: 46px;
+      height: 46px;
+      top: -25px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .mobile-aside-card {
+      display: block;
+    }
+  
+    .ny-moblie-banner {
+      display: none;
+    }
+  
+    .ny-banner .ny-banner-list .banner-info-box {
+      padding: 16px;
+    }
+  
+    .ny-banner .ny-banner-list .banner-info-box .banner-info-title {
+      margin: 10px 0;
+    }
+  
+    .mobile-footer-menu {
+      display: none;
+    }
+  
+    .pc-upload {
+      display: block;
+    }
+  
+    .mobile-upload {
+      display: none;
+    }
+  
+    .manuscript-home .ant-card-body > div {
+      flex: 0 0 33.3%;
+    }
+  
+    .manuscript .manuscriptSide-wrapper .manuscript-slider {
+      position: relative;
+    }
+  
+    .manuscript .manuscriptSide-wrapper .manuscript-slider .ant-drawer-content-wrapper {
+      box-shadow: none;
+    }
+  
+    .lc-tab .ant-tabs-nav-container {
+      max-width: 1160px;
+    }
+  
+    .manuscript-upload .ny-col-content {
+      max-width: 760px;
+    }
+  
+    .manuscript-article .ny-col-content .article-list_wrap .article-card .meta-wrp {
+      width: 50%;
+    }
+  
+    .manuscript-article .ny-col-content .article-list_wrap .article-card .meta-operation {
+      width: 50%;
+    }
+  
+    .ny-main-wrap {
+      padding-top: 15px;
+    }
+  }

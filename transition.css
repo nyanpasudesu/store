@@ -1,0 +1,105 @@
+/* 淡入淡出 */
+.overlay-enter,.overlay-leave-to{
+    opacity: 0;
+}
+.overlay-enter-to,.overlay-leave{
+    opacity: 1;
+}
+.overlay-enter-active,.overlay-leave-active{
+    transition: all .3s;
+}
+
+/* 缩小显示 */
+.lock-in-enter,
+.lock-in-enter-active{
+  transform-origin: 50% 50%;
+  animation: flipInLeft .5s both ease-out;
+  animation-delay: .5s;
+}
+/* 放大消失 */
+.lock-in-leave-active{
+  transform-origin: 50% 50%;
+	animation: flipOutRight .5s both ease-in;
+}
+
+/* 缩小显示 */
+.scale-in-enter,
+.scale-in-enter-active{
+  animation: scaleUp .7s ease both;
+}
+/* 放大消失 */
+.scale-in-leave-active{
+	transform-origin: 0% 0%;
+	animation: rotateFall 1s both ease-in;
+}
+
+.scale-out-enter-active{
+  animation: scaleUp .7s ease both;
+}
+
+/* * 需要登录了 */
+.cardBottom-enter,
+.cardBottom-enter-active{
+  animation: scaleDown .7s ease both;
+}
+/* 放大消失 */
+.cardBottom-leave-active{
+  animation: moveToTop .6s ease both;
+}
+/* 缩小消失 */
+.cardTop-leave-active{
+  animation: scaleDown .7s ease both;
+}
+/* 放大显示 */
+.cardTop-enter,
+.cardTop-enter-active{
+  animation: moveFromTop .6s ease both;
+}
+
+
+.scaleBack-enter-active {
+    animation: scaleUpDown .5s ease both;
+    animation-delay: .3s;
+}
+.scaleBack-leave-active{
+    animation: scaleDown .7s ease both;
+}
+.scaleForward-enter-active{
+    animation: scaleUp .7s ease both;
+    animation-delay: .3s;
+}
+.scaleForward-leave-active {
+    animation: scaleDownUp .5s ease both;
+}
+.scaleBack-enter, .scaleBack-leave-to, .scaleForward-enter, .scaleForward-leave-to {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+  
+  /* 有网，断网了 */
+.online-enter-active {
+    animation: scaleUp .7s ease both;
+}
+.online-leave-active{
+    animation: moveToTop .6s ease both;
+}
+.offline-enter-active{
+    animation: moveFromTop .6s ease both;
+}
+.offline-leave-active {
+    animation: scaleDown .7s ease both;
+}
+.online-enter, .offline-enter{
+
+}
+.online-leave-to, .offline-leave-to {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

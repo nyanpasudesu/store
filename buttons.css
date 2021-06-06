@@ -1,0 +1,141 @@
+.button {
+    --hue: 190;
+    position: relative;
+    padding: 0.375rem 0.75rem;
+    margin: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    text-decoration: none;
+    border: 1px solid hsl(var(--hue), 100%, 41%);
+    border-radius: 3px;
+    outline: transparent;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  .button-primary {
+    --hue: 171;
+  }
+  .button-jittery {
+    animation: jittery 4s infinite;
+  }
+  
+  .submit-button {
+    --submit-hue: 195;
+    --submit-btn-bg-color: hsl(var(--submit-hue), 100%, 42%);
+    --submit-btn-bg-color-darker: hsl(var(--submit-hue), 100%, 37%);
+    position: relative;
+    width: 80px;
+    height: 36px;
+    margin: 10px;
+    font-size: 1rem;
+    font-family: Lato, sans-serif;
+    line-height: 1.5;
+    z-index: 100;
+    color: white;
+    text-decoration: none;
+    background-color: var(--submit-btn-bg-color);
+    border: 1px solid var(--submit-btn-bg-color);
+    border-radius: 4px;
+    outline: transparent;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: 0.25s;
+  }
+  .submit-button-pink {
+    --submit-hue: 195;
+  }
+  .submit-button-bubbles {
+    overflow: visible;
+    transition: transform ease-in 0.1s, background-color ease-in 0.1s, box-shadow ease-in 0.25s;
+  }
+  .submit-button-bubbles::before {
+    position: absolute;
+    content: "";
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    transition: ease-in-out 0.5s;
+    background-repeat: no-repeat;
+    background-image: bubbles(var(--submit-btn-bg-color));
+    background-size: random_sizes();
+    background-position: 18% 40%, 20% 31%, 30% 30%, 40% 30%, 50% 30%, 57% 30%, 65% 30%, 80% 32%, 15% 60%, 83% 60%, 18% 70%, 25% 70%, 41% 70%, 50% 70%, 64% 70%, 80% 71%;
+    animation: bubbles ease-in-out 0.75s forwards;
+  }
+  .submit-button-bubbles:active {
+    transform: scale(0.95);
+    background: var(--submit-btn-bg-color-darker);
+  }
+  .submit-button-bubbles:active::before {
+    animation: none;
+    background-size: 0;
+  }
+  
+  .nyanpasu-btn {
+    display: block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-radius: 4px;
+    border-color: transparent;
+    transition: 0.2s;
+  }
+  .nyanpasu-btn:hover, .nyanpasu-btn:active, .nyanpasu-btn:focus {
+    border-color: transparent !important;
+  }
+  
+  .reset-btn {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .change-img-btn, .rollback-btn {
+    height: 40px;
+    width: 120px;
+    margin: 30px auto 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #00a1d6;
+    color: #fff;
+  }
+  .change-img-btn:hover, .change-img-btn:active, .change-img-btn:focus, .rollback-btn:hover, .rollback-btn:active, .rollback-btn:focus {
+    background-color: #00b5e5 !important;
+    color: #fff;
+  }
+  
+  .operation-btn {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #00a1d6;
+    color: #fff;
+  }
+  .operation-btn:hover, .operation-btn:active, .operation-btn:focus {
+    background-color: #00b5e5 !important;
+    color: #fff;
+  }
+  
+  .create-btn {
+    background-color: #fb7299;
+    box-shadow: 0 3px 6px 0 rgba(251, 114, 153, 0.3);
+    color: #fff;
+  }
+  .create-btn:hover, .create-btn:active, .create-btn:focus {
+    background-color: rgba(251, 114, 153, 0.8);
+    color: #fff;
+  }
+  
+  button[disabled=disabled] {
+    color: rgba(0, 0, 0, 0.25) !important;
+    background-color: #f5f5f5 !important;
+    border-color: #d9d9d9 !important;
+  }
+  button[disabled=disabled]:hover {
+    color: rgba(0, 0, 0, 0.25) !important;
+    background-color: #f5f5f5 !important;
+    border-color: #d9d9d9 !important;
+  }
